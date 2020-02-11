@@ -12,7 +12,7 @@
     Here is the thing that when you transfer something or do someting it runs on ram and then after the work is done it disappears from 
     the ram (as ram is volatile memory) but there are some processes that stuck on ram (this may happen in this case) (it creates caches of it)
     ...as we need ram to install openstack services ...so just reboot your system or you can do 'cat /proc/sys/vm/drop_caches' (it is 0) 
-    change it to 3 by 'echo 3 > /proc/sys/vm/drop_caches' (don't open it by gedit or vim) then run 'free -m' your ram is free now
+    change it to 3 by 'echo 3 > /proc/sys/vm/drop_caches' (avoid using gedit or vim in this case) then run 'free -m' your ram is free now
 * __Step 4__
   * now install openstack-packstack _it is the installer for openstack_
 * __Step 5__

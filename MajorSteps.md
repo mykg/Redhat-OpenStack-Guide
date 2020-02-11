@@ -3,8 +3,7 @@
   * configure static ip
 * __Step 2__
   * stop and disable NetworkManager as it conflicts later with some services
-* __Step 3__
-  * configure yum or yum server and add your repos of openstack to it (iso)
+* __Step 3__ configure yum or yum server and add your repos of openstack to it (iso)
   * mount your iso locally 
   * transfer all the rpms into another directory 
   * and make repodata of that folder to use it as main repo where you have all required rpms of openstack
